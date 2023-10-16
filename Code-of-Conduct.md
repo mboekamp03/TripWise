@@ -52,7 +52,8 @@ expected to pay attention to the group chat.
 
 ## Assignments
 
-
+Assignments will be split up across the group evenly. We will occasionally test the product
+to ensure all features work as intended and will adjust from there.
 
 ## Participation
 
