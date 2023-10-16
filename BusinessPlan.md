@@ -1,3 +1,3 @@
 ## Lean Canvas Link:
 
-https://docs.google.com/presentation/d/1zHk0RkdKiKOujTXIE-vJKPXccZGY68HYj4QX6SmjIUs/edit#slide=id.g28fc6b12707_0_0
+https://docs.google.com/presentation/d/1BqdqjK6NFENhLz5-Yj-yQ-f024G67AKcqmF5-1xdzIc/edit#slide=id.g28fc6be9196_0_93
