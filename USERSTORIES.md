@@ -2,3 +2,4 @@
 # Acceptance Criteria:
 - User can choose to allow the app to track their location while using it
 - User can also input their location manually if they prefer to do that instead
+- User will be able to see the calculated distance of their trip destination from their current destination
