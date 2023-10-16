@@ -29,7 +29,7 @@ Supporting Data:
 Team Action (if any):
 - N/A
 
-## Observation 4 (50 - 70 years of age)
+## Observation 4 
 Observation statement: 
 - Users of 50 - 70 years of age both have different taste on what they want to do when it comes to vacation. From our data, our married couple would like to explore places while our user that is single, would just like to visit family.
 
@@ -38,3 +38,13 @@ Supporting Data:
 
 Team Action (if any): 
 - Maybe integrate a question on the personality test that asks the user what their marital status is, that way we can see what destination is feasable for them (if they are married or single).
+
+## Observation 5
+Observation statement: 
+- Users currently use Google (both searches and documents) as well as the individual apps which we compete with to book vacations. This is the exact problem we wish to solve and 75% of our users likely experience it. 
+
+Supporting Data: 
+- Out of the 20 responses of our survey, 15 said they use either Google searches or one of our main competitors to plan trips.
+
+Team Action (if any): 
+- N/A
