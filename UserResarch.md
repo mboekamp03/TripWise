@@ -27,5 +27,5 @@ Supporting Data:
 - Supporting data can be some peoples input was very unrealistic. It would be almost impossible to travel to somewhere like Japan and only spend between $0 - $500. 
 
 Team Action (if any):
--N/A
+- N/A
 
