@@ -1,5 +1,9 @@
-## Trips are Planned Using Multiple Apps and Searches
+## Observation 5
+Observation statement: 
+- Users currently use Google (both searches and documents) as well as the individual apps which we compete with to book vacations. This is the exact problem we wish to solve and 75% of our users likely experience it. 
 
-The majority of people who took our survey used Google (both searches and documents) as well as the individual apps which we compete with. Using both of these methods are diffcicult for users as thety must go back and forth between searches and the document or between apps in the case of those who use the mainstream apps. Some survey takers also said that they themselves don't plan the vacation but others do. All of these processes are full of confusion and take time.  
+Supporting Data: 
+- Out of the 20 responses of our survey, 15 said they use either Google searches or one of our main competitors to plan trips.
 
-Working across multiple apps is an issue ours solves by putting all the information right infront of users after a quick search. Having to use a Google doc to keep track of progress is also difficult. These issues are all some that almost everyone has encountered in the past and will continue to encounter. These results verify our intial belief that this is an issue people deal with.
+Team Action (if any): 
+- N/A
