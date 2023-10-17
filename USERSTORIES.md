@@ -18,3 +18,10 @@ ACCEPTANCE CRITERIA:
 * User can get a list of possible places to stay
 * User can filter by their price range
 * User can book a place to stay within the app
+
+USER STORY: As a general user i want to be able to have the application track my current location so i wont have to submit any extra information.
+
+ACCEPTANCE CRITERIA:
+* User can choose to allow the app to track their location while using it
+* User can also input their location manually if they prefer to do that instead
+* User will be able to see the calculated distance of their trip destination from their current destination
