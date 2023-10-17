@@ -90,4 +90,4 @@ When giving feedback, make it constructive and be respectful while giving it.
 =======
 ![Addie Murphy's signature](./src/Addie-Signature.png)
 =======
-![Matt Boekamp's signature](./src/Matt-Signature.png)
+![Matt Boekamp's signature](./src/Matt-Signature.jpeg)
