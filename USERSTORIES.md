@@ -33,3 +33,10 @@ ACCEPTANCE CRITERIA:
 * User can access a short quiz
 * User can see a list of destinations
 * User can see list of similarities between answers and destinations
+
+USER STORY: As a developer, I would like to create an algorithm that will assist users on a perfect vacation destination based on the responses to their needs stated on the mini personality test.
+
+ACCEPTANCE CRITERIA:
+* User is able to take the personality quiz
+* The personality quiz actually influences the location suggestion given to the user
+* Algorithm is accurate and is able to produce valid results
