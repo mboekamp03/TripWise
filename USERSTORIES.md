@@ -25,3 +25,11 @@ ACCEPTANCE CRITERIA:
 * User can choose to allow the app to track their location while using it
 * User can also input their location manually if they prefer to do that instead
 * User will be able to see the calculated distance of their trip destination from their current destination
+
+
+USER STORY: As a general user, I want to be able to take a quick quiz to find a destination that is compatible with my needs.
+
+ACCEPTANCE CRITERIA:
+* User can access a short quiz
+* User can see a list of destinations
+* User can see list of similarities between answers and destinations
