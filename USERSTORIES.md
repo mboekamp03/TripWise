@@ -12,3 +12,9 @@ ACCEPTANCE CRITERIA:
 * User can save, access, and edit personal information.
 * User can save, access, and edit preferences derived from their quiz answers.
 
+USER STORY: As a general user, I want to be able to find a place to stay within my price range and book my stay within the app 
+
+ACCEPTANCE CRITERIA:
+* User can get a list of possible places to stay
+* User can filter by their price range
+* User can book a place to stay within the app
