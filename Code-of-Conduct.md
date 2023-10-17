@@ -82,3 +82,12 @@ Team encourage and reinforce active listening as well as respectful dialogue.
 ## Enforcement/ Feedback 
 
 When giving feedback, make it constructive and be respectful while giving it.
+
+
+![Jose Harvey's signature](./src/jose_signature.jpg)
+=======
+![Angel Pichardo's signature](./src/ap_sign.png)
+=======
+![Addie Murphy's signature](./src/Addie-Signature.png)
+=======
+![Matt Boekamp's signature](./src/Matt-Signature.jpeg)
