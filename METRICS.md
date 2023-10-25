@@ -1,1 +1,1 @@
-
+- Happiness metric - We will collect user reviews and rating from the app store to gauge general user satisfaction.
