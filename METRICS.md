@@ -1,2 +1,3 @@
 - Happiness metric - We will collect user reviews and rating from the app store to gauge general user satisfaction.
-- Completion Percentage - We will implement a feature inside the app which determines if a user has completed the booking process or not. We will then use this value to calculate the percent of users who complete booking.
+- Booking Completion Percentage - We will implement a feature inside the app which determines if a user has completed the booking process or not. We will then use this value to calculate the percent of users who complete booking.
+- Quiz Completion Percentage - We will implement a feature to collect the number of people who finished the quiz. We will then use this to calculate the percentage.
