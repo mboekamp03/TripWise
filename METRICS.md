@@ -7,4 +7,4 @@
 - Error Rate Per User - We will implement a feature to track the number of errors a user encounters. This will be used to determine the task success.
 
 
-![HEART Framework](./src/heat.png)
+![HEART Framework](./src/heart.png)
