@@ -88,6 +88,16 @@
                     "enabledFeatures": {
                         "iap": false
                     }
+                },
+                "c773ab4d-6e66-44d0-93a5-92341419372f": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
                 }
             },
             "categories": [],
@@ -117,10 +127,16 @@
                                 "id": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                             },
                             {
+                                "id": "77616d7c-f742-4551-bd27-12ce970f325d"
+                            },
+                            {
                                 "id": "979c515c-9282-47a2-8e61-203690129a51"
                             },
                             {
                                 "id": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                            },
+                            {
+                                "id": "c773ab4d-6e66-44d0-93a5-92341419372f"
                             },
                             {
                                 "id": "ce851527-c1a7-4f23-9662-b77db495fc35"
@@ -249,7 +265,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "5",
+            "totalCopy": "6",
             "totalStar": "0",
             "starAction": "star",
             "variables": {

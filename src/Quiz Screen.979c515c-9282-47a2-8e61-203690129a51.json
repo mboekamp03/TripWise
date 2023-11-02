@@ -63,8 +63,8 @@
             "properties": {
                 "Picture": "hot.png",
                 "resizeMode": "stretch",
-                "Height": 30,
-                "Width": 30,
+                "Height": 32,
+                "Width": 32,
                 "Visible": true,
                 "X": 327,
                 "Y": 158,
