@@ -21,8 +21,8 @@
                     "createdAt": "2023-10-19T14:33:18.330Z",
                     "updatedAt": "2023-10-19T14:33:18.330Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f2b5efd8584f5864e0bae1/projects/65313b6e1bc82b707bd678e5/assets/65313e2e1959a6f599531153?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231030T152720Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0f62460601368c96e1c65a91faf80ff39d7869c4f89d8d5d2071650e46dd573145f8d49fbb0a8009b5c33cb85eddad95823841817306efdedbd8adf2965c529375541abb468a5f3d331ee18e0e85c653c207e9eccbac5f3993cbca8d7400f8927631d0057e64d67d45bd1f133c5c6904545d45f70ac215ed65fe0620ddc30bed5b43c18bf4cd9ba884e6542792f63eea050e3ca2841a1b81cd80750038ac58b0519bf7c99f1e48e267587ee6d593a1fbca491589e588bd4372f20b2379a639de4b507920be923cd28bef299e808673299a71b053739b4f4c3cf0efb7a09669715c27227c7a72230ff3d38d21554358f8c1ff404512858ab3bc6685f6dcce1c4c",
-                    "signedUrlExpirationTime": 1698852440412
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f2b5efd8584f5864e0bae1/projects/65313b6e1bc82b707bd678e5/assets/65313e2e1959a6f599531153?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231102%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231102T133259Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=5ea369d2da8d6329f06ab389ef0b6e072d9e6d8a31e01d3cc30eb4b9ee3226d59d2ab06c948329645561f8d1f4ab569431a077d594e7500425921fe4bcb2321f33f73b8c8365bf239e4572a9f7143c5517e919f128010fc38c9cd925cd2293cfc4362b10d558f377e3305329e1b94992d0428c351a82a9497cd9d34ecc879200110b8b935bd38310fd3909910ef66b77d191394300c21a8012038f24dc842e2e984d486b7b336fd58373f32e9523efb5adf701294345169a42bb3a247b49a69aa3154fb91671edcb8ff088e15b1c220867ac4ce76e1f20cbce07d9a2c11f2d323bb2fc53887825932049b760f54cd9556bbbd523f7299ee36401474f3440850b",
+                    "signedUrlExpirationTime": 1699104779984
                 }
             },
             "backendUpgradeVersion": 23,
@@ -38,6 +38,16 @@
                     }
                 },
                 "25f37915-c7f4-4306-8a6c-8d104dffe547": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "979c515c-9282-47a2-8e61-203690129a51": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -79,26 +89,26 @@
                             },
                             {
                                 "id": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                            },
+                            {
+                                "id": "ce851527-c1a7-4f23-9662-b77db495fc35"
+                            },
+                            {
+                                "id": "3edee5c5-0813-4cd9-a5a7-f0875b801737"
+                            },
+                            {
+                                "id": "1d2e85c8-12a8-4b31-9851-e736293a31e9"
+                            },
+                            {
+                                "id": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d"
+                            },
+                            {
+                                "id": "d5082954-62be-49f0-b470-ad77c43e52e8"
                             }
                         ],
                         "id": "74db74f4-c741-4ab6-bfb2-43eb27c0ff57",
                         "thunkableVersion": 267,
                         "name": "Drawer_Navigator1"
-                    },
-                    {
-                        "id": "ce851527-c1a7-4f23-9662-b77db495fc35"
-                    },
-                    {
-                        "id": "3edee5c5-0813-4cd9-a5a7-f0875b801737"
-                    },
-                    {
-                        "id": "1d2e85c8-12a8-4b31-9851-e736293a31e9"
-                    },
-                    {
-                        "id": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d"
-                    },
-                    {
-                        "id": "d5082954-62be-49f0-b470-ad77c43e52e8"
                     }
                 ]
             },
@@ -207,7 +217,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "3",
+            "totalCopy": "5",
             "totalStar": "0",
             "starAction": "star",
             "variables": {

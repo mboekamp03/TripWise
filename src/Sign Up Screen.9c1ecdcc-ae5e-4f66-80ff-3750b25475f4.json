@@ -24,7 +24,8 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "borderRadius": 20
+            "borderRadius": 20,
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -38,7 +39,8 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": false
+        "Scrollable": false,
+        "BackgroundColor": "rgba(255, 255, 255, 1)"
     },
     "children": [
         {
