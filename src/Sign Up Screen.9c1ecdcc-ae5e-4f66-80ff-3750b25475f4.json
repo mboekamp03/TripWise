@@ -79,7 +79,6 @@
                     "top": "3.598200899550225%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "position": "absolute",
                 "edgeOffsets": 11
@@ -151,8 +150,8 @@
                 "Text": "Sign In instead",
                 "TextColor": "rgba(74, 74, 74, 1)",
                 "FontSize": 18,
-                "Height": 43,
-                "Width": 159,
+                "Height": 45,
+                "Width": 161,
                 "Visible": true,
                 "X": 110,
                 "Y": 462.375,
