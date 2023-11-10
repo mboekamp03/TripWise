@@ -1,4 +1,5 @@
 {
+    "id": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -38,14 +39,22 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [],
-    "id": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
     "thunkableVersion": 426,
     "name": "Destination4"
 }
