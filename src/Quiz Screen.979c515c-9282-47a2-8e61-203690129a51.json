@@ -2382,7 +2382,7 @@
             "reactType": "Slider",
             "properties": {
                 "minimumValue": 0,
-                "maximumValue": 5,
+                "maximumValue": 10,
                 "value": 5,
                 "step": 1,
                 "Height": 40,
