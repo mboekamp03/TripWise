@@ -15,26 +15,27 @@ admin.initializeApp();
 
 exports.matchDestinations = functions.https.onRequest(async (req, res) => {
   const userId = req.query.user_id;
-  const db = admin.firestore();
+  const db = admin.database().ref();
 
   // Fetch user data (user_id is at the top level of the database)
-  const userDoc = await db.doc(userId).get();
-  const userData = userDoc.data();
+  const userRef = await db.child(userId).get();
+  const userData = userRef.exportVal();
 
   // Fetch destinations data
-  const destinationsSnapshot = await db.collection("destinations").get();
-  const destinationsData = destinationsSnapshot.docs.map((doc) => doc.data());
+  const destinationsSnapshot = await db.child("destinations").get();
+  const destinationsData = destinationsSnapshot.exportVal();
 
   // Compare user data with each destination's data
-  const scores = destinationsData.map((destination) => {
-    return {
-      destination: destination,
-      score: compareData(userData.quiz_answers, destination),
-    };
+  const scores = [];
+  Object.keys(destinationsData).forEach((destination) => {
+    const score = compareData(userData.quiz_answers,
+        destinationsData[destination]);
+    scores.push({destination, score});
   });
 
-  // Sort destinations based on score and select top 3
-  scores.sort((a, b) => b.score - a.score);
+  // Sort destinations based on score and select the lowest 3
+  // (lowest score = best match)
+  scores.sort((a, b) => a.score - b.score);
   const topDestinations = scores.slice(0, 3).map(
       (scoreObj) => scoreObj.destination);
 
@@ -54,9 +55,6 @@ function compareData(answers, destination) {
   // Compare climate (scale of 1-5)
   difference += Math.abs(answers.climate - destination.climate);
 
-  // Compare budget (scale of 1-5)
-  difference += Math.abs(answers.budget - destination.budget);
-
   // Compare environment (keys: beach, city, rural; values: boolean)
   const environmentKeys = Object.keys(answers.environment);
   environmentKeys.forEach((key) => {
@@ -67,9 +65,9 @@ function compareData(answers, destination) {
 
   // Compare activities (keys: food, hiking, kayaking, museum, sailboat,
   // sight_seeing, surfing; values: boolean)
-  const activitiesKeys = Object.keys(answers.activities);
+  const activitiesKeys = Object.keys(answers.activity);
   activitiesKeys.forEach((key) => {
-    if (answers.activities[key] !== destination.activities[key]) {
+    if (answers.activity[key] !== destination.activity[key]) {
       difference++;
     }
   });
