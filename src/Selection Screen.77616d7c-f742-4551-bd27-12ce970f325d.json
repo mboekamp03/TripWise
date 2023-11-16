@@ -1,4 +1,5 @@
 {
+    "id": "77616d7c-f742-4551-bd27-12ce970f325d",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -161,7 +162,6 @@
             "name": "Search Button"
         }
     ],
-    "id": "77616d7c-f742-4551-bd27-12ce970f325d",
     "thunkableVersion": 428,
     "name": "Selection Screen"
 }

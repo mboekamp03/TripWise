@@ -1,4 +1,5 @@
 {
+    "id": "979c515c-9282-47a2-8e61-203690129a51",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -159,8 +160,8 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 37,
-                "Width": 327,
+                "Height": 41,
+                "Width": 331,
                 "Visible": true,
                 "X": 30,
                 "Y": 267,
@@ -2331,11 +2332,11 @@
             "reactType": "Slider",
             "properties": {
                 "minimumValue": 0,
-                "maximumValue": 10,
+                "maximumValue": 3,
                 "value": 5,
                 "step": 1,
-                "Height": 28,
-                "Width": 324,
+                "Height": 30,
+                "Width": 326,
                 "Visible": true,
                 "X": 30,
                 "Y": 239,
@@ -2675,7 +2676,6 @@
             "name": "Climate Label"
         }
     ],
-    "id": "979c515c-9282-47a2-8e61-203690129a51",
     "thunkableVersion": 425,
     "name": "Quiz Screen"
 }

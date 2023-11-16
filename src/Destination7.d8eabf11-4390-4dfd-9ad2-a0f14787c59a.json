@@ -1,5 +1,5 @@
 {
-    "id": "3edee5c5-0813-4cd9-a5a7-f0875b801737",
+    "id": "d8eabf11-4390-4dfd-9ad2-a0f14787c59a",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -55,6 +55,6 @@
         "tabNavigationOptions": {}
     },
     "children": [],
-    "thunkableVersion": 426,
-    "name": "Destination2"
+    "thunkableVersion": 428,
+    "name": "Destination7"
 }
