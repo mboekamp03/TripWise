@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "destinations": {
+      "type": "object",
+      "properties": {
+        "new_york": {
+          "type": "object",
+          "properties": {
+            "activity": {
+              "type": "object",
+              "properties": {
+                "food": { "type": "boolean" },
+                "hiking": { "type": "boolean" },
+                "kayaking": { "type": "boolean" },
+                "museum": { "type": "boolean" },
+                "sailboat": { "type": "boolean" },
+                "sight_seeing": { "type": "boolean" },
+                "surfing": { "type": "boolean" }
+              },
+              "required": ["food", "hiking", "kayaking", "museum", "sailboat", "sight_seeing", "surfing"]
+            },
+            "climate": { "type": "integer" },
+            "environment": {
+              "type": "object",
+              "properties": {
+                "beach": { "type": "boolean" },
+                "city": { "type": "boolean" },
+                "rural": { "type": "boolean" }
+              },
+              "required": ["beach", "city", "rural"]
+            }
+          },
+          "required": ["activity", "climate", "environment"]
+        }
+      },
+      "required": ["new_york"]
+    },
+    "sample_user": {
+      "type": "object",
+      "properties": {
+        "quiz_answers": {
+          "type": "object",
+          "properties": {
+            "activity": {
+              "type": "object",
+              "properties": {
+                "food": { "type": "boolean" },
+                "hiking": { "type": "boolean" },
+                "kayaking": { "type": "boolean" },
+                "museum": { "type": "boolean" },
+                "sailboat": { "type": "boolean" },
+                "sight_seeing": { "type": "boolean" },
+                "surfing": { "type": "boolean" }
+              },
+              "required": ["food", "hiking", "kayaking", "museum", "sailboat", "sight_seeing", "surfing"]
+            },
+            "budget": { "type": "integer" },
+            "climate": { "type": "integer" },
+            "environment": {
+              "type": "object",
+              "properties": {
+                "beach": { "type": "boolean" },
+                "city": { "type": "boolean" },
+                "rural": { "type": "boolean" }
+              },
+              "required": ["beach", "city", "rural"]
+            },
+            "group_size": { "type": "integer" }
+          },
+          "required": ["activity", "budget", "climate", "environment", "group_size"]
+        }
+      },
+      "required": ["quiz_answers"]
+    }
+  },
+  "required": ["destinations", "sample_user"]
+}
