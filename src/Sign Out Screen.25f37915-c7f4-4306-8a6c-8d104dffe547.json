@@ -1,4 +1,5 @@
 {
+    "id": "25f37915-c7f4-4306-8a6c-8d104dffe547",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -24,7 +25,8 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "borderRadius": 20
+            "borderRadius": 20,
+            "backgroundColor": "rgba(115, 126, 126, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -37,7 +39,8 @@
         "DesignerHeight": 677,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true
+        "isSimple": true,
+        "BackgroundColor": "rgba(115, 126, 126, 1)"
     },
     "children": [
         {
@@ -198,64 +201,8 @@
             "id": "3becd789-6966-4b99-95a3-ebab3f2a1718",
             "thunkableVersion": 266,
             "name": "Sign Out"
-        },
-        {
-            "type": "Label",
-            "translatedName": "Label",
-            "reactType": "Text",
-            "properties": {
-                "Text": "This is my app!",
-                "FontSize": 18,
-                "Height": 36,
-                "Width": 204,
-                "Visible": true,
-                "X": 64,
-                "Y": 69.375,
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "flexWrap": "wrap",
-                    "position": "absolute",
-                    "left": "17.066666666666666%",
-                    "top": "10.401049475262369%",
-                    "fontSize": 18,
-                    "height": 36,
-                    "flex": 0,
-                    "width": 204,
-                    "display": "flex",
-                    "shadowColor": "rgba(255, 255, 255, 1)",
-                    "scaledShadowOpacity": 100,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    }
-                },
-                "position": "absolute",
-                "edgeOffsets": 69.375,
-                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
-                "children": "This is my app!",
-                "letterSpacing": 0,
-                "textDecorationLine": "none",
-                "textDecorationStyle": "solid",
-                "textDecorationColor": "rgba(0, 0, 0, 1)",
-                "writingDirection": "auto",
-                "RelativeX": 64,
-                "RelativeY": 69.375
-            },
-            "children": [],
-            "id": "d601d2d4-0358-4eb4-8f76-b7217f09dace",
-            "thunkableVersion": 266,
-            "name": "Label5"
         }
     ],
-    "id": "25f37915-c7f4-4306-8a6c-8d104dffe547",
     "thunkableVersion": 266,
     "name": "Sign Out Screen"
 }
