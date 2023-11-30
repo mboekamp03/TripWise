@@ -6,8 +6,10 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(155, 155, 155, 0.5)",
         "Justification": "center",
         "Alignment": "center",
+        "Scrollable": true,
         "Visible": true,
         "style": {
             "marginTop": 0,
@@ -39,76 +41,35 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": true,
-        "BackgroundColor": "rgba(155, 155, 155, 0.5)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali2.jpeg",
+                "Picture": "maine3.jpg",
                 "resizeMode": "stretch",
-                "Height": 265,
-                "Width": 331,
+                "Height": 309,
+                "Width": 332,
                 "Visible": true,
-                "X": 17,
-                "Y": 1320,
-                "RelativeX": 17,
-                "RelativeY": 1320,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "23.333333333333332%",
-                    "top": "63.19340329835082%",
-                    "display": "flex",
-                    "backgroundColor": "rgba(155, 155, 155, 0.5)"
-                },
-                "capInsets": {},
-                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
-                "position": "absolute",
-                "edgeOffsets": 1320,
-                "BackgroundColor": "rgba(155, 155, 155, 0.5)"
-            },
-            "children": [],
-            "id": "7bbac690-c3bd-4bd4-a06b-832e88542194",
-            "thunkableVersion": 433,
-            "name": "Image15"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "cali3.jpg",
-                "resizeMode": "stretch",
-                "Height": 287,
-                "Width": 328,
-                "Visible": true,
-                "X": 20,
-                "Y": 1017,
-                "RelativeX": 20,
-                "RelativeY": 1017,
+                "X": 18,
+                "Y": 1028,
+                "RelativeX": 18,
+                "RelativeY": 1028,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -135,12 +96,12 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 1017
+                "edgeOffsets": 1028
             },
             "children": [],
-            "id": "66000687-4375-4549-9ae7-3fa6b03db8e3",
+            "id": "72b66e72-ac7a-41fa-9dd6-c4d4d79636ae",
             "thunkableVersion": 433,
-            "name": "scenery4"
+            "name": "scenery13"
         },
         {
             "type": "Image",
@@ -148,12 +109,12 @@
             "properties": {
                 "resizeMode": "stretch",
                 "Height": 290,
-                "Width": 327,
+                "Width": 332,
                 "Visible": true,
                 "X": 18,
-                "Y": 714,
+                "Y": 727,
                 "RelativeX": 18,
-                "RelativeY": 714,
+                "RelativeY": 727,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -180,31 +141,31 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 714,
-                "Picture": "caliiiiiii.jpg"
+                "edgeOffsets": 727,
+                "Picture": "maine4.jpeg"
             },
             "children": [],
-            "id": "b25aa816-ac3c-44c8-a578-1c4b017b5a26",
+            "id": "c478bcff-8b33-4dee-b62a-97da54f424d3",
             "thunkableVersion": 433,
-            "name": "scenery again"
+            "name": "scenery again5"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "Text": "Ogunquit is a town in Maine\u2019s is known for Ogunquit Beach. Nearby, Marginal Way is a cliff walk with coastal views, benches and a lighthouse. Musicals are staged at the Ogunquit Playhouse summer theater. The Ogunquit Museum of American Art is known for its waterside sculptures and works by Maine-related artists. ",
                 "FontSize": 15,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 113,
-                "Width": 322,
+                "Height": 152,
+                "Width": 332,
                 "Visible": true,
-                "X": 27,
-                "Y": 304,
-                "RelativeX": 27,
-                "RelativeY": 304,
+                "X": 19,
+                "Y": 290,
+                "RelativeX": 19,
+                "RelativeY": 290,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -245,28 +206,28 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 304,
-                "children": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "edgeOffsets": 290,
+                "children": "Ogunquit is a town in Maine\u2019s is known for Ogunquit Beach. Nearby, Marginal Way is a cliff walk with coastal views, benches and a lighthouse. Musicals are staged at the Ogunquit Playhouse summer theater. The Ogunquit Museum of American Art is known for its waterside sculptures and works by Maine-related artists. ",
                 "Font": "Montserrat"
             },
             "children": [],
-            "id": "e93297e9-052e-4d44-980b-04fa3ee6de11",
+            "id": "48559869-2402-4e2b-9731-a6aa968d7e98",
             "thunkableVersion": 433,
-            "name": "info3"
+            "name": "info8"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali4.jpg",
+                "Picture": "maine1.jpg",
                 "resizeMode": "stretch",
-                "Height": 251,
-                "Width": 326,
+                "Height": 264,
+                "Width": 330,
                 "Visible": true,
-                "X": 20,
-                "Y": 447,
-                "RelativeX": 20,
-                "RelativeY": 447,
+                "X": 19,
+                "Y": 454,
+                "RelativeX": 19,
+                "RelativeY": 454,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -293,34 +254,34 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 447
+                "edgeOffsets": 454
             },
             "children": [],
-            "id": "f583d957-63e8-4efa-b784-790f0678fe21",
+            "id": "692be52d-f491-4aaa-9803-a9000619bdfc",
             "thunkableVersion": 433,
-            "name": "scenery3"
+            "name": "scenery14"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California",
+                "Text": "Ogunquit, Maine ",
                 "FontSize": 35,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(34, 153, 127, 1)",
+                "Color": "rgba(44, 111, 173, 1)",
                 "FontWeight": "bold",
-                "Height": 45,
-                "Width": 311,
+                "Height": 49,
+                "Width": 315,
                 "Visible": true,
-                "X": 21,
-                "Y": 243,
-                "RelativeX": 21,
-                "RelativeY": 243,
+                "X": 22,
+                "Y": 244,
+                "RelativeX": 22,
+                "RelativeY": 244,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(34, 153, 127, 1)",
+                    "color": "rgba(44, 111, 173, 1)",
                     "fontSize": 35,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -359,77 +320,28 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "40.4%",
-                    "top": "40.32983508245877%"
-                },
-                "children": "California",
+                "edgeOffsets": 244,
+                "children": "Ogunquit, Maine ",
                 "Font": "Slabo"
             },
             "children": [],
-            "id": "e38a3c18-f7c9-4727-acc1-77d0ac8351b2",
+            "id": "8d101f0a-c7dc-4361-a0d2-fbd957cef07c",
             "thunkableVersion": 433,
-            "name": "California"
+            "name": "MAINE1"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "Unknown.png",
-                "resizeMode": "stretch",
-                "Height": 93,
-                "Width": 117,
-                "Visible": true,
-                "X": 212,
-                "Y": 136,
-                "RelativeX": 212,
-                "RelativeY": 136,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "62.266666666666666%",
-                    "top": "33.583208395802096%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
-                "position": "absolute",
-                "edgeOffsets": 136
-            },
-            "children": [],
-            "id": "d27c0758-f66e-4c91-a52b-fa2faabbd3b0",
-            "thunkableVersion": 433,
-            "name": "flag"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "californiaOpen.jpg",
+                "Picture": "maine scenery.jpg",
                 "resizeMode": "stretch",
                 "Height": 163,
                 "Width": 183,
                 "Visible": true,
-                "X": 20,
-                "Y": 63,
-                "RelativeX": 20,
-                "RelativeY": 63,
+                "X": 19,
+                "Y": 66,
+                "RelativeX": 19,
+                "RelativeY": 66,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -456,12 +368,12 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 63
+                "edgeOffsets": 66
             },
             "children": [],
-            "id": "c34b3f45-2b76-4694-a33c-b945eb27a114",
+            "id": "ddaf9f8d-e03c-41f1-9f9e-6dbbb65e242d",
             "thunkableVersion": 433,
-            "name": "opening image "
+            "name": "opening image 5"
         },
         {
             "type": "Label",
@@ -530,12 +442,13 @@
                 "Font": "Caladea"
             },
             "children": [],
-            "id": "52d5ab96-4940-4b6b-a322-781fadef4035",
+            "id": "7169dbc1-d1df-46a1-9ff8-c7844c515db2",
             "thunkableVersion": 433,
-            "name": "DESTINATION LABEL"
+            "name": "DESTINATION LABEL5"
         }
     ],
-    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
-    "thunkableVersion": 426,
-    "name": "Destination5"
+    "id": "5a991f15-1b74-4d00-b1b8-508e65bc89f9",
+    "thunkableVersion": 433,
+    "bindings": null,
+    "name": "Destination10"
 }

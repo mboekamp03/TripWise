@@ -6,8 +6,10 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(155, 155, 155, 0.5)",
         "Justification": "center",
         "Alignment": "center",
+        "Scrollable": true,
         "Visible": true,
         "style": {
             "marginTop": 0,
@@ -39,20 +41,27 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": true,
-        "BackgroundColor": "rgba(155, 155, 155, 0.5)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali2.jpeg",
+                "Picture": "boston4.jpeg",
                 "resizeMode": "stretch",
                 "Height": 265,
                 "Width": 331,
@@ -92,18 +101,18 @@
                 "BackgroundColor": "rgba(155, 155, 155, 0.5)"
             },
             "children": [],
-            "id": "7bbac690-c3bd-4bd4-a06b-832e88542194",
+            "id": "9ffefda3-79c5-408b-b9e3-77ac880d30ba",
             "thunkableVersion": 433,
-            "name": "Image15"
+            "name": "Image16"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali3.jpg",
+                "Picture": "boston3.jpg",
                 "resizeMode": "stretch",
-                "Height": 287,
-                "Width": 328,
+                "Height": 289,
+                "Width": 330,
                 "Visible": true,
                 "X": 20,
                 "Y": 1017,
@@ -138,9 +147,9 @@
                 "edgeOffsets": 1017
             },
             "children": [],
-            "id": "66000687-4375-4549-9ae7-3fa6b03db8e3",
+            "id": "a620bba2-163c-4cdb-8ccb-f4c7862e829a",
             "thunkableVersion": 433,
-            "name": "scenery4"
+            "name": "scenery5"
         },
         {
             "type": "Image",
@@ -181,30 +190,30 @@
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
                 "edgeOffsets": 714,
-                "Picture": "caliiiiiii.jpg"
+                "Picture": "boston2.jpg"
             },
             "children": [],
-            "id": "b25aa816-ac3c-44c8-a578-1c4b017b5a26",
+            "id": "8ff2b5a8-d089-418b-8897-564cc59c91ad",
             "thunkableVersion": 433,
-            "name": "scenery again"
+            "name": "scenery again1"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "Text": "Boston is best known for its famous baked beans, Fenway Park, The Boston Marathon, and of course for the bar from Cheers, but dig a little deeper below the surface and you'll find a surprising wealth of things that make Boston one of the best cities in the United States.",
                 "FontSize": 15,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 113,
-                "Width": 322,
+                "Height": 127,
+                "Width": 328,
                 "Visible": true,
-                "X": 27,
-                "Y": 304,
-                "RelativeX": 27,
-                "RelativeY": 304,
+                "X": 23,
+                "Y": 300,
+                "RelativeX": 23,
+                "RelativeY": 300,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -245,20 +254,20 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 304,
-                "children": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "edgeOffsets": 300,
+                "children": "Boston is best known for its famous baked beans, Fenway Park, The Boston Marathon, and of course for the bar from Cheers, but dig a little deeper below the surface and you'll find a surprising wealth of things that make Boston one of the best cities in the United States.",
                 "Font": "Montserrat"
             },
             "children": [],
-            "id": "e93297e9-052e-4d44-980b-04fa3ee6de11",
+            "id": "649464f2-ba4f-4d59-a38f-2fd5b6ad68a8",
             "thunkableVersion": 433,
-            "name": "info3"
+            "name": "info4"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali4.jpg",
+                "Picture": "boston.jpg.webp",
                 "resizeMode": "stretch",
                 "Height": 251,
                 "Width": 326,
@@ -296,31 +305,31 @@
                 "edgeOffsets": 447
             },
             "children": [],
-            "id": "f583d957-63e8-4efa-b784-790f0678fe21",
+            "id": "b712e60f-cbc3-4ccd-9888-ea86d308b63e",
             "thunkableVersion": 433,
-            "name": "scenery3"
+            "name": "scenery6"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California",
+                "Text": "Boston, Massachusetts",
                 "FontSize": 35,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(34, 153, 127, 1)",
+                "Color": "rgba(153, 38, 34, 1)",
                 "FontWeight": "bold",
-                "Height": 45,
-                "Width": 311,
+                "Height": 83,
+                "Width": 341,
                 "Visible": true,
-                "X": 21,
-                "Y": 243,
-                "RelativeX": 21,
-                "RelativeY": 243,
+                "X": 19,
+                "Y": 237,
+                "RelativeX": 19,
+                "RelativeY": 237,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(34, 153, 127, 1)",
+                    "color": "rgba(153, 38, 34, 1)",
                     "fontSize": 35,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -359,23 +368,20 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "40.4%",
-                    "top": "40.32983508245877%"
-                },
-                "children": "California",
+                "edgeOffsets": 237,
+                "children": "Boston, Massachusetts",
                 "Font": "Slabo"
             },
             "children": [],
-            "id": "e38a3c18-f7c9-4727-acc1-77d0ac8351b2",
+            "id": "5c50040b-a49d-448c-8ec0-7124c452b610",
             "thunkableVersion": 433,
-            "name": "California"
+            "name": "California1"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "Unknown.png",
+                "Picture": "Flag_of_Boston.svg.png",
                 "resizeMode": "stretch",
                 "Height": 93,
                 "Width": 117,
@@ -413,15 +419,15 @@
                 "edgeOffsets": 136
             },
             "children": [],
-            "id": "d27c0758-f66e-4c91-a52b-fa2faabbd3b0",
+            "id": "0a6fc888-d610-4bb6-bed4-7c553f95c065",
             "thunkableVersion": 433,
-            "name": "flag"
+            "name": "flag1"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "californiaOpen.jpg",
+                "Picture": "bostonOpne.jpg.webp",
                 "resizeMode": "stretch",
                 "Height": 163,
                 "Width": 183,
@@ -459,9 +465,9 @@
                 "edgeOffsets": 63
             },
             "children": [],
-            "id": "c34b3f45-2b76-4694-a33c-b945eb27a114",
+            "id": "7f270502-30d8-4cd4-bfa4-c1a33e56d073",
             "thunkableVersion": 433,
-            "name": "opening image "
+            "name": "opening image 1"
         },
         {
             "type": "Label",
@@ -530,12 +536,13 @@
                 "Font": "Caladea"
             },
             "children": [],
-            "id": "52d5ab96-4940-4b6b-a322-781fadef4035",
+            "id": "049b74c9-1ca1-4155-a786-480d9ad702b4",
             "thunkableVersion": 433,
-            "name": "DESTINATION LABEL"
+            "name": "DESTINATION LABEL1"
         }
     ],
-    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
-    "thunkableVersion": 426,
-    "name": "Destination5"
+    "id": "4eaf0eae-f36a-49e6-9f08-243d0e73cd16",
+    "thunkableVersion": 433,
+    "bindings": null,
+    "name": "Destination6"
 }
