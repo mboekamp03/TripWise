@@ -6,8 +6,10 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(155, 155, 155, 0.5)",
         "Justification": "center",
         "Alignment": "center",
+        "Scrollable": true,
         "Visible": true,
         "style": {
             "marginTop": 0,
@@ -39,28 +41,35 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": true,
-        "BackgroundColor": "rgba(155, 155, 155, 0.5)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali2.jpeg",
+                "Picture": "chicago4.jpg",
                 "resizeMode": "stretch",
-                "Height": 265,
-                "Width": 331,
+                "Height": 269,
+                "Width": 340,
                 "Visible": true,
-                "X": 17,
-                "Y": 1320,
-                "RelativeX": 17,
-                "RelativeY": 1320,
+                "X": 18,
+                "Y": 1321,
+                "RelativeX": 18,
+                "RelativeY": 1321,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -88,22 +97,22 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 1320,
+                "edgeOffsets": 1321,
                 "BackgroundColor": "rgba(155, 155, 155, 0.5)"
             },
             "children": [],
-            "id": "7bbac690-c3bd-4bd4-a06b-832e88542194",
+            "id": "9c0f5379-6c6f-4604-b3c4-2e1bd9242520",
             "thunkableVersion": 433,
-            "name": "Image15"
+            "name": "Image18"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali3.jpg",
+                "Picture": "chicago3.jpg",
                 "resizeMode": "stretch",
-                "Height": 287,
-                "Width": 328,
+                "Height": 291,
+                "Width": 332,
                 "Visible": true,
                 "X": 20,
                 "Y": 1017,
@@ -138,22 +147,22 @@
                 "edgeOffsets": 1017
             },
             "children": [],
-            "id": "66000687-4375-4549-9ae7-3fa6b03db8e3",
+            "id": "23e47c38-af9e-4ce0-806d-012f3fe39cee",
             "thunkableVersion": 433,
-            "name": "scenery4"
+            "name": "scenery9"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 290,
-                "Width": 327,
+                "Height": 305,
+                "Width": 332,
                 "Visible": true,
                 "X": 18,
-                "Y": 714,
+                "Y": 703,
                 "RelativeX": 18,
-                "RelativeY": 714,
+                "RelativeY": 703,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -180,31 +189,31 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 714,
-                "Picture": "caliiiiiii.jpg"
+                "edgeOffsets": 703,
+                "Picture": "chicago2.jpg"
             },
             "children": [],
-            "id": "b25aa816-ac3c-44c8-a578-1c4b017b5a26",
+            "id": "ee6f7377-3993-4306-a492-4fbc90c0cb88",
             "thunkableVersion": 433,
-            "name": "scenery again"
+            "name": "scenery again3"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "Text": "Sitting on the banks of beautiful Lake Michigan, Chicago, Illinois, is the third-largest city in the United States. Chicago is known for its jaw-dropping architecture, vibrant music scene, amazing food, including deep-dish pizza and iconic neighborhoods.",
                 "FontSize": 15,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 113,
-                "Width": 322,
+                "Height": 133,
+                "Width": 328,
                 "Visible": true,
-                "X": 27,
-                "Y": 304,
-                "RelativeX": 27,
-                "RelativeY": 304,
+                "X": 25,
+                "Y": 294,
+                "RelativeX": 25,
+                "RelativeY": 294,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -245,28 +254,28 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 304,
-                "children": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "edgeOffsets": 294,
+                "children": "Sitting on the banks of beautiful Lake Michigan, Chicago, Illinois, is the third-largest city in the United States. Chicago is known for its jaw-dropping architecture, vibrant music scene, amazing food, including deep-dish pizza and iconic neighborhoods.",
                 "Font": "Montserrat"
             },
             "children": [],
-            "id": "e93297e9-052e-4d44-980b-04fa3ee6de11",
+            "id": "2201dea9-41ce-4113-8081-f02ca00a5e58",
             "thunkableVersion": 433,
-            "name": "info3"
+            "name": "info6"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali4.jpg",
+                "Picture": "chicago.jpg",
                 "resizeMode": "stretch",
-                "Height": 251,
-                "Width": 326,
+                "Height": 262,
+                "Width": 328,
                 "Visible": true,
                 "X": 20,
-                "Y": 447,
+                "Y": 429,
                 "RelativeX": 20,
-                "RelativeY": 447,
+                "RelativeY": 429,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -293,26 +302,26 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 447
+                "edgeOffsets": 429
             },
             "children": [],
-            "id": "f583d957-63e8-4efa-b784-790f0678fe21",
+            "id": "bc5aea8d-6169-4fce-9b10-c08a8f4c8e2d",
             "thunkableVersion": 433,
-            "name": "scenery3"
+            "name": "scenery10"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California",
+                "Text": "Chicago ",
                 "FontSize": 35,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(34, 153, 127, 1)",
+                "Color": "rgba(208, 2, 27, 1)",
                 "FontWeight": "bold",
-                "Height": 45,
-                "Width": 311,
+                "Height": 47,
+                "Width": 313,
                 "Visible": true,
                 "X": 21,
                 "Y": 243,
@@ -320,7 +329,7 @@
                 "RelativeY": 243,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(34, 153, 127, 1)",
+                    "color": "rgba(208, 2, 27, 1)",
                     "fontSize": 35,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -359,23 +368,20 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "40.4%",
-                    "top": "40.32983508245877%"
-                },
-                "children": "California",
+                "edgeOffsets": 243,
+                "children": "Chicago ",
                 "Font": "Slabo"
             },
             "children": [],
-            "id": "e38a3c18-f7c9-4727-acc1-77d0ac8351b2",
+            "id": "48adeda6-9def-4750-bd66-3934534c0624",
             "thunkableVersion": 433,
-            "name": "California"
+            "name": "chicago"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "Unknown.png",
+                "Picture": "chicago_flag.svg.png",
                 "resizeMode": "stretch",
                 "Height": 93,
                 "Width": 117,
@@ -413,15 +419,15 @@
                 "edgeOffsets": 136
             },
             "children": [],
-            "id": "d27c0758-f66e-4c91-a52b-fa2faabbd3b0",
+            "id": "b0dd69a8-7074-4616-a5a5-6bc8c0f4a880",
             "thunkableVersion": 433,
-            "name": "flag"
+            "name": "flag3"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "californiaOpen.jpg",
+                "Picture": "chicago-scenery.jpg",
                 "resizeMode": "stretch",
                 "Height": 163,
                 "Width": 183,
@@ -459,9 +465,9 @@
                 "edgeOffsets": 63
             },
             "children": [],
-            "id": "c34b3f45-2b76-4694-a33c-b945eb27a114",
+            "id": "03275e63-f09d-4f33-8871-b6a5f1d6d7fd",
             "thunkableVersion": 433,
-            "name": "opening image "
+            "name": "opening image 3"
         },
         {
             "type": "Label",
@@ -530,12 +536,13 @@
                 "Font": "Caladea"
             },
             "children": [],
-            "id": "52d5ab96-4940-4b6b-a322-781fadef4035",
+            "id": "4c2dce16-00ac-4b8d-b6c8-6b4be34620dd",
             "thunkableVersion": 433,
-            "name": "DESTINATION LABEL"
+            "name": "DESTINATION LABEL3"
         }
     ],
-    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
-    "thunkableVersion": 426,
-    "name": "Destination5"
+    "id": "6e8d3153-fe77-4cf3-ba97-a0c511f4a9c6",
+    "thunkableVersion": 433,
+    "bindings": null,
+    "name": "Destination8"
 }

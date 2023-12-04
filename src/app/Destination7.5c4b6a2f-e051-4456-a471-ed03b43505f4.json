@@ -6,8 +6,10 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(155, 155, 155, 0.5)",
         "Justification": "center",
         "Alignment": "center",
+        "Scrollable": true,
         "Visible": true,
         "style": {
             "marginTop": 0,
@@ -39,20 +41,27 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": true,
-        "BackgroundColor": "rgba(155, 155, 155, 0.5)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali2.jpeg",
+                "Picture": "hawaii4.jpg",
                 "resizeMode": "stretch",
                 "Height": 265,
                 "Width": 331,
@@ -92,18 +101,18 @@
                 "BackgroundColor": "rgba(155, 155, 155, 0.5)"
             },
             "children": [],
-            "id": "7bbac690-c3bd-4bd4-a06b-832e88542194",
+            "id": "c95e5efa-119e-4832-9f03-f2fb462eb814",
             "thunkableVersion": 433,
-            "name": "Image15"
+            "name": "Image17"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali3.jpg",
+                "Picture": "hawaii3.jpg",
                 "resizeMode": "stretch",
-                "Height": 287,
-                "Width": 328,
+                "Height": 291,
+                "Width": 332,
                 "Visible": true,
                 "X": 20,
                 "Y": 1017,
@@ -138,9 +147,9 @@
                 "edgeOffsets": 1017
             },
             "children": [],
-            "id": "66000687-4375-4549-9ae7-3fa6b03db8e3",
+            "id": "8516e221-1c6c-4388-bc54-1e412dc2b04c",
             "thunkableVersion": 433,
-            "name": "scenery4"
+            "name": "scenery7"
         },
         {
             "type": "Image",
@@ -181,30 +190,30 @@
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
                 "edgeOffsets": 714,
-                "Picture": "caliiiiiii.jpg"
+                "Picture": "hawaii2.jpg"
             },
             "children": [],
-            "id": "b25aa816-ac3c-44c8-a578-1c4b017b5a26",
+            "id": "52f1bc8c-9e61-4d0f-81a0-60fd699df247",
             "thunkableVersion": 433,
-            "name": "scenery again"
+            "name": "scenery again2"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "Text": "Hawaii is known for its beautiful beaches\u2014some of them with unusual colors. Many beaches are filled with white sand, but other Hawaiian shores are covered with green, red, pink, and even black sand. Whether you like hiking, biking, kayaking, sailing, swimming, or just sitting on the beach, Hawaii is the state for you.",
                 "FontSize": 15,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 113,
-                "Width": 322,
+                "Height": 152,
+                "Width": 324,
                 "Visible": true,
-                "X": 27,
-                "Y": 304,
-                "RelativeX": 27,
-                "RelativeY": 304,
+                "X": 24,
+                "Y": 293,
+                "RelativeX": 24,
+                "RelativeY": 293,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -245,20 +254,20 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 304,
-                "children": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "edgeOffsets": 293,
+                "children": "Hawaii is known for its beautiful beaches\u2014some of them with unusual colors. Many beaches are filled with white sand, but other Hawaiian shores are covered with green, red, pink, and even black sand. Whether you like hiking, biking, kayaking, sailing, swimming, or just sitting on the beach, Hawaii is the state for you.",
                 "Font": "Montserrat"
             },
             "children": [],
-            "id": "e93297e9-052e-4d44-980b-04fa3ee6de11",
+            "id": "5697ba6b-2d13-4c91-a30b-48f3bd2ee2bf",
             "thunkableVersion": 433,
-            "name": "info3"
+            "name": "info5"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali4.jpg",
+                "Picture": "hawaii.webp.jpeg",
                 "resizeMode": "stretch",
                 "Height": 251,
                 "Width": 326,
@@ -296,23 +305,23 @@
                 "edgeOffsets": 447
             },
             "children": [],
-            "id": "f583d957-63e8-4efa-b784-790f0678fe21",
+            "id": "af988676-089d-4f13-8815-d0540a056add",
             "thunkableVersion": 433,
-            "name": "scenery3"
+            "name": "scenery8"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California",
+                "Text": "Hawaii",
                 "FontSize": 35,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(34, 153, 127, 1)",
+                "Color": "rgba(99, 170, 20, 1)",
                 "FontWeight": "bold",
-                "Height": 45,
-                "Width": 311,
+                "Height": 47,
+                "Width": 313,
                 "Visible": true,
                 "X": 21,
                 "Y": 243,
@@ -320,7 +329,7 @@
                 "RelativeY": 243,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(34, 153, 127, 1)",
+                    "color": "rgba(99, 170, 20, 1)",
                     "fontSize": 35,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -359,23 +368,20 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "40.4%",
-                    "top": "40.32983508245877%"
-                },
-                "children": "California",
+                "edgeOffsets": 243,
+                "children": "Hawaii",
                 "Font": "Slabo"
             },
             "children": [],
-            "id": "e38a3c18-f7c9-4727-acc1-77d0ac8351b2",
+            "id": "85d2c6d6-6ef8-4955-83a2-538221e46573",
             "thunkableVersion": 433,
-            "name": "California"
+            "name": "hawaii"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "Unknown.png",
+                "Picture": "hawaii_Flag.jpg.webp",
                 "resizeMode": "stretch",
                 "Height": 93,
                 "Width": 117,
@@ -413,15 +419,15 @@
                 "edgeOffsets": 136
             },
             "children": [],
-            "id": "d27c0758-f66e-4c91-a52b-fa2faabbd3b0",
+            "id": "707bc972-453a-49bd-83a9-057b687ae283",
             "thunkableVersion": 433,
-            "name": "flag"
+            "name": "flag2"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "californiaOpen.jpg",
+                "Picture": "hawaii.jpg.webp",
                 "resizeMode": "stretch",
                 "Height": 163,
                 "Width": 183,
@@ -459,9 +465,9 @@
                 "edgeOffsets": 63
             },
             "children": [],
-            "id": "c34b3f45-2b76-4694-a33c-b945eb27a114",
+            "id": "78b46e2a-1cd0-4b55-8027-7d060185d191",
             "thunkableVersion": 433,
-            "name": "opening image "
+            "name": "opening image 2"
         },
         {
             "type": "Label",
@@ -530,12 +536,13 @@
                 "Font": "Caladea"
             },
             "children": [],
-            "id": "52d5ab96-4940-4b6b-a322-781fadef4035",
+            "id": "812566cd-49bc-47ad-a86d-c873673f734a",
             "thunkableVersion": 433,
-            "name": "DESTINATION LABEL"
+            "name": "DESTINATION LABEL2"
         }
     ],
-    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
-    "thunkableVersion": 426,
-    "name": "Destination5"
+    "id": "5c4b6a2f-e051-4456-a471-ed03b43505f4",
+    "thunkableVersion": 433,
+    "bindings": null,
+    "name": "Destination7"
 }

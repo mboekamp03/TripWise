@@ -6,8 +6,10 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(155, 155, 155, 0.5)",
         "Justification": "center",
         "Alignment": "center",
+        "Scrollable": true,
         "Visible": true,
         "style": {
             "marginTop": 0,
@@ -39,76 +41,35 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": true,
-        "BackgroundColor": "rgba(155, 155, 155, 0.5)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali2.jpeg",
+                "Picture": "washington4.jpg",
                 "resizeMode": "stretch",
-                "Height": 265,
-                "Width": 331,
+                "Height": 302,
+                "Width": 334,
                 "Visible": true,
                 "X": 17,
-                "Y": 1320,
+                "Y": 1027,
                 "RelativeX": 17,
-                "RelativeY": 1320,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "23.333333333333332%",
-                    "top": "63.19340329835082%",
-                    "display": "flex",
-                    "backgroundColor": "rgba(155, 155, 155, 0.5)"
-                },
-                "capInsets": {},
-                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
-                "position": "absolute",
-                "edgeOffsets": 1320,
-                "BackgroundColor": "rgba(155, 155, 155, 0.5)"
-            },
-            "children": [],
-            "id": "7bbac690-c3bd-4bd4-a06b-832e88542194",
-            "thunkableVersion": 433,
-            "name": "Image15"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "cali3.jpg",
-                "resizeMode": "stretch",
-                "Height": 287,
-                "Width": 328,
-                "Visible": true,
-                "X": 20,
-                "Y": 1017,
-                "RelativeX": 20,
-                "RelativeY": 1017,
+                "RelativeY": 1027,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -135,12 +96,12 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 1017
+                "edgeOffsets": 1027
             },
             "children": [],
-            "id": "66000687-4375-4549-9ae7-3fa6b03db8e3",
+            "id": "f0cfb35f-0cb8-4df1-8449-f6c2ed357490",
             "thunkableVersion": 433,
-            "name": "scenery4"
+            "name": "scenery11"
         },
         {
             "type": "Image",
@@ -148,12 +109,12 @@
             "properties": {
                 "resizeMode": "stretch",
                 "Height": 290,
-                "Width": 327,
+                "Width": 332,
                 "Visible": true,
                 "X": 18,
-                "Y": 714,
+                "Y": 727,
                 "RelativeX": 18,
-                "RelativeY": 714,
+                "RelativeY": 727,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -180,31 +141,31 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 714,
-                "Picture": "caliiiiiii.jpg"
+                "edgeOffsets": 727,
+                "Picture": "washington3.jpg.avif"
             },
             "children": [],
-            "id": "b25aa816-ac3c-44c8-a578-1c4b017b5a26",
+            "id": "a308aa61-b7df-46d0-8a01-c238c834ff92",
             "thunkableVersion": 433,
-            "name": "scenery again"
+            "name": "scenery again4"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "Text": "Washington DC attracts history buffs with its national monuments and memorials, as well as impressive museums displaying various cultures, artifacts, and collectibles from around the world. Home to the White House, you may even catch a glimpse of the nation's president while you're vacationing in the USA capital. ",
                 "FontSize": 15,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 113,
-                "Width": 322,
+                "Height": 152,
+                "Width": 332,
                 "Visible": true,
-                "X": 27,
-                "Y": 304,
-                "RelativeX": 27,
-                "RelativeY": 304,
+                "X": 19,
+                "Y": 290,
+                "RelativeX": 19,
+                "RelativeY": 290,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -245,28 +206,28 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 304,
-                "children": "California, a western U.S. state, stretches from the Mexican border along the Pacific for nearly 900 miles. Its terrain includes cliff-lined beaches, redwood forest, the Sierra Nevada Mountains, Central Valley farmland and the Mojave Desert.",
+                "edgeOffsets": 290,
+                "children": "Washington DC attracts history buffs with its national monuments and memorials, as well as impressive museums displaying various cultures, artifacts, and collectibles from around the world. Home to the White House, you may even catch a glimpse of the nation's president while you're vacationing in the USA capital. ",
                 "Font": "Montserrat"
             },
             "children": [],
-            "id": "e93297e9-052e-4d44-980b-04fa3ee6de11",
+            "id": "9935dd6c-89e2-43fe-9525-619bbd8d0f27",
             "thunkableVersion": 433,
-            "name": "info3"
+            "name": "info7"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "cali4.jpg",
+                "Picture": "washington2.jpg",
                 "resizeMode": "stretch",
-                "Height": 251,
-                "Width": 326,
+                "Height": 264,
+                "Width": 330,
                 "Visible": true,
-                "X": 20,
-                "Y": 447,
-                "RelativeX": 20,
-                "RelativeY": 447,
+                "X": 19,
+                "Y": 454,
+                "RelativeX": 19,
+                "RelativeY": 454,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -293,34 +254,34 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 447
+                "edgeOffsets": 454
             },
             "children": [],
-            "id": "f583d957-63e8-4efa-b784-790f0678fe21",
+            "id": "2ed111bc-682a-4d04-9ec2-8fa134a91759",
             "thunkableVersion": 433,
-            "name": "scenery3"
+            "name": "scenery12"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "California",
+                "Text": "Washington, D.C.",
                 "FontSize": 35,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(34, 153, 127, 1)",
+                "Color": "rgba(74, 74, 74, 1)",
                 "FontWeight": "bold",
-                "Height": 45,
-                "Width": 311,
+                "Height": 49,
+                "Width": 315,
                 "Visible": true,
-                "X": 21,
-                "Y": 243,
-                "RelativeX": 21,
-                "RelativeY": 243,
+                "X": 22,
+                "Y": 244,
+                "RelativeX": 22,
+                "RelativeY": 244,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(34, 153, 127, 1)",
+                    "color": "rgba(74, 74, 74, 1)",
                     "fontSize": 35,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -359,23 +320,20 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "40.4%",
-                    "top": "40.32983508245877%"
-                },
-                "children": "California",
+                "edgeOffsets": 244,
+                "children": "Washington, D.C.",
                 "Font": "Slabo"
             },
             "children": [],
-            "id": "e38a3c18-f7c9-4727-acc1-77d0ac8351b2",
+            "id": "ea4cc231-d190-42a0-a99e-fceb52e2f293",
             "thunkableVersion": 433,
-            "name": "California"
+            "name": "MAINE"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "Unknown.png",
+                "Picture": "FLAG.WASHINGTON.jpg.webp",
                 "resizeMode": "stretch",
                 "Height": 93,
                 "Width": 117,
@@ -413,23 +371,23 @@
                 "edgeOffsets": 136
             },
             "children": [],
-            "id": "d27c0758-f66e-4c91-a52b-fa2faabbd3b0",
+            "id": "ae77804f-bd3d-4db4-8728-c65d81b7fdb8",
             "thunkableVersion": 433,
-            "name": "flag"
+            "name": "flag4"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "californiaOpen.jpg",
+                "Picture": "dc.jpg",
                 "resizeMode": "stretch",
                 "Height": 163,
                 "Width": 183,
                 "Visible": true,
-                "X": 20,
-                "Y": 63,
-                "RelativeX": 20,
-                "RelativeY": 63,
+                "X": 19,
+                "Y": 66,
+                "RelativeX": 19,
+                "RelativeY": 66,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -456,12 +414,12 @@
                 "capInsets": {},
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 63
+                "edgeOffsets": 66
             },
             "children": [],
-            "id": "c34b3f45-2b76-4694-a33c-b945eb27a114",
+            "id": "bf7a49a2-0ca0-4623-8355-97aa57cd8d16",
             "thunkableVersion": 433,
-            "name": "opening image "
+            "name": "opening image 4"
         },
         {
             "type": "Label",
@@ -530,12 +488,13 @@
                 "Font": "Caladea"
             },
             "children": [],
-            "id": "52d5ab96-4940-4b6b-a322-781fadef4035",
+            "id": "d2c8254a-b890-4823-93ae-6b00e7d6b011",
             "thunkableVersion": 433,
-            "name": "DESTINATION LABEL"
+            "name": "DESTINATION LABEL4"
         }
     ],
-    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
-    "thunkableVersion": 426,
-    "name": "Destination5"
+    "id": "987348a2-9891-4b9f-b9e5-b6d4c5bacf9b",
+    "thunkableVersion": 433,
+    "bindings": null,
+    "name": "Destination9"
 }
