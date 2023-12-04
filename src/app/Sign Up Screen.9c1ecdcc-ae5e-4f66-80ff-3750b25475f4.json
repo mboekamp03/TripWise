@@ -1,4 +1,5 @@
 {
+    "id": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -79,6 +80,7 @@
                     "top": "3.598200899550225%",
                     "display": "flex"
                 },
+                "capInsets": {},
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "position": "absolute",
                 "edgeOffsets": 11
@@ -150,11 +152,11 @@
                 "Text": "Sign In instead",
                 "TextColor": "rgba(74, 74, 74, 1)",
                 "FontSize": 18,
-                "Height": 43,
+                "Height": 52,
                 "Width": 159,
                 "Visible": true,
-                "X": 110,
-                "Y": 462.375,
+                "X": 105,
+                "Y": 465,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -185,10 +187,10 @@
                 "Raised": false,
                 "Disabled": false,
                 "position": "absolute",
-                "edgeOffsets": 462.375,
+                "edgeOffsets": 465.99999999999994,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "RelativeX": 110,
-                "RelativeY": 462.375
+                "RelativeX": 105,
+                "RelativeY": 465
             },
             "children": [],
             "id": "2f00798f-b472-4be7-810c-b77d855a556d",
@@ -203,11 +205,11 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 18,
                 "BackgroundColor": "rgba(22, 210, 241, 1)",
-                "Height": 60,
-                "Width": 135,
+                "Height": 54,
+                "Width": 130,
                 "Visible": true,
-                "X": 119.00000000000001,
-                "Y": 381.375,
+                "X": 119,
+                "Y": 382,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -238,10 +240,10 @@
                 "Raised": false,
                 "Disabled": false,
                 "position": "absolute",
-                "edgeOffsets": 381.375,
+                "edgeOffsets": 382.375,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "RelativeX": 119.00000000000001,
-                "RelativeY": 381.375
+                "RelativeX": 119,
+                "RelativeY": 382
             },
             "children": [],
             "id": "e78f95a6-cbc7-4175-a0b9-042c4e5e03be",
@@ -255,10 +257,10 @@
             "properties": {
                 "value": true,
                 "Visible": true,
-                "Height": 20,
-                "Width": 40,
+                "Height": 21,
+                "Width": 42,
                 "X": 233,
-                "Y": 319.375,
+                "Y": 319,
                 "position": "absolute",
                 "edgeOffsets": 319.375,
                 "style": {
@@ -276,7 +278,8 @@
                 },
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "RelativeX": 233,
-                "RelativeY": 319.375
+                "RelativeY": 319,
+                "thumbTintColor": "rgba(22, 210, 241, 1)"
             },
             "children": [],
             "id": "b19acbb2-6b23-4010-b53f-0a07838e55f4",
@@ -293,8 +296,8 @@
                 "Height": 30,
                 "Width": 164,
                 "Visible": true,
-                "X": 16,
-                "Y": 319.375,
+                "X": 33,
+                "Y": 319,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -330,8 +333,8 @@
                 "textDecorationStyle": "solid",
                 "textDecorationColor": "rgba(0, 0, 0, 1)",
                 "writingDirection": "auto",
-                "RelativeX": 16,
-                "RelativeY": 319.375
+                "RelativeX": 33,
+                "RelativeY": 319
             },
             "children": [],
             "id": "e576ba11-0e11-4942-b7da-fb8ae7188fb2",
@@ -344,14 +347,14 @@
             "translatedName": "Group",
             "reactType": "ViewWithProps",
             "properties": {
-                "Height": 76,
-                "Width": 376,
+                "Height": 69,
+                "Width": 378,
                 "Visible": true,
                 "X": 1,
-                "Y": 229,
+                "Y": 238,
                 "BackgroundPictureResizeMode": "contain",
                 "position": "absolute",
-                "edgeOffsets": 229.78125,
+                "edgeOffsets": 238,
                 "style": {
                     "position": "absolute",
                     "left": "22.4%",
@@ -371,7 +374,7 @@
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "resizeMode": "contain",
                 "RelativeX": 1,
-                "RelativeY": 229,
+                "RelativeY": 238,
                 "TouchOpacity": 20
             },
             "children": [
@@ -380,11 +383,11 @@
                     "translatedName": "Text Input",
                     "properties": {
                         "Hint": "Confirm Password",
-                        "Height": 25,
-                        "Width": 190,
+                        "Height": 30,
+                        "Width": 189,
                         "Visible": true,
-                        "X": 94,
-                        "Y": 255,
+                        "X": 91,
+                        "Y": 254,
                         "style": {
                             "fontSize": 18,
                             "marginTop": 0,
@@ -419,7 +422,7 @@
                         "onChangeText": "function(e){this.properties.Text=e}",
                         "secureTextEntry": true,
                         "position": "absolute",
-                        "edgeOffsets": 255,
+                        "edgeOffsets": 254,
                         "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                         "placeholder": "Confirm Password",
                         "color": "rgba(0, 0, 0, 1)",
@@ -430,8 +433,8 @@
                         "textDecorationColor": "rgba(0, 0, 0, 1)",
                         "writingDirection": "auto",
                         "clearButtonMode": "never",
-                        "RelativeX": 93,
-                        "RelativeY": 26
+                        "RelativeX": 90,
+                        "RelativeY": 16
                     },
                     "children": [],
                     "id": "ba9d0ede-057f-41c6-b411-c40ad007924c",
@@ -448,11 +451,11 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Password",
-                "Height": 28,
-                "Width": 194,
+                "Height": 30,
+                "Width": 191,
                 "Visible": true,
-                "X": 92,
-                "Y": 190,
+                "X": 91,
+                "Y": 195,
                 "style": {
                     "fontSize": 18,
                     "marginTop": 0,
@@ -487,7 +490,7 @@
                 "onChangeText": "function(e){this.properties.Text=e}",
                 "secureTextEntry": true,
                 "position": "absolute",
-                "edgeOffsets": 190,
+                "edgeOffsets": 195,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "placeholder": "Password",
                 "color": "rgba(0, 0, 0, 1)",
@@ -498,8 +501,8 @@
                 "textDecorationColor": "rgba(0, 0, 0, 1)",
                 "writingDirection": "auto",
                 "clearButtonMode": "never",
-                "RelativeX": 92,
-                "RelativeY": 190
+                "RelativeX": 91,
+                "RelativeY": 195
             },
             "children": [],
             "id": "e50b3e8b-d921-4d9e-acfe-e2cb87d2dc71",
@@ -512,7 +515,7 @@
             "properties": {
                 "Hint": "Email",
                 "KeyboardType": "email-address",
-                "Height": 25,
+                "Height": 34,
                 "Width": 190,
                 "Visible": true,
                 "X": 92,
@@ -571,7 +574,6 @@
             "name": "Email_TI"
         }
     ],
-    "id": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
     "thunkableVersion": 266,
     "name": "Sign Up Screen"
 }
