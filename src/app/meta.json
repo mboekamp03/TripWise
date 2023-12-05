@@ -203,6 +203,16 @@
                     "enabledFeatures": {
                         "iap": true
                     }
+                },
+                "1d2e85c8-12a8-4b31-9851-e736293a31e9": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
                 }
             },
             "categories": [],
