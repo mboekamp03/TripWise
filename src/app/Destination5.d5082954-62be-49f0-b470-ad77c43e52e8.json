@@ -1,4 +1,5 @@
 {
+    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -535,7 +536,6 @@
             "name": "DESTINATION LABEL"
         }
     ],
-    "id": "d5082954-62be-49f0-b470-ad77c43e52e8",
     "thunkableVersion": 426,
     "name": "Destination5"
 }
