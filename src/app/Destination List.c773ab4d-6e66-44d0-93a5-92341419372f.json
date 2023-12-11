@@ -113,7 +113,7 @@
             "children": [],
             "id": "2e1aad3f-c2e9-4f68-a24e-45b331b848e7",
             "thunkableVersion": 433,
-            "name": "Label6"
+            "name": "Destination List Label"
         },
         {
             "type": "Button",
