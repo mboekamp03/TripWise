@@ -1,0 +1,113 @@
+{
+    "type": "Screen",
+    "translatedName": "Screen",
+    "reactType": "ViewWithProps",
+    "properties": {
+        "Height": "Fill container",
+        "Width": "Fill container",
+        "Layout": "column",
+        "Justification": "center",
+        "Alignment": "center",
+        "Visible": true,
+        "style": {
+            "marginTop": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "shadowColor": "rgba(0, 0, 0, 0)",
+            "shadowOpacity": 0,
+            "scaledShadowOpacity": 0,
+            "shadowRadius": 0,
+            "shadowOffset": {
+                "width": 0,
+                "height": 0
+            },
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "display": "flex"
+        },
+        "ShowStatusBar": true,
+        "StatusBarStyle": "default",
+        "TranslucentStatusBar": false,
+        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "TabNavigationOptions": {
+            "tabBarVisible": true
+        },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
+        "ScreenOrientation": "portrait",
+        "DesignerHeight": 667,
+        "DesignerWidth": 375,
+        "ResponsiveWidth": 375,
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
+    },
+    "children": [
+        {
+            "type": "DatePicker",
+            "label": "Date Input",
+            "translatedName": "Date Input",
+            "properties": {
+                "FormatStyle": "YYYY-MM-DD",
+                "Height": 45,
+                "Width": 181,
+                "Visible": true,
+                "X": 187,
+                "Y": 245,
+                "RelativeX": 187,
+                "RelativeY": 245,
+                "ResizeMode": "STRETCH",
+                "FontSize": 16,
+                "Color": "rgba(0, 0, 0, 65)",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "44.93333333333333%",
+                    "top": "36.73163418290854%",
+                    "display": "flex",
+                    "fontSize": 16,
+                    "color": "rgba(0, 0, 0, 65)"
+                },
+                "ParentId": "b15b1460-ad82-4e8a-a4d6-36d632dd160f",
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "44.93333333333333%",
+                    "top": "36.73163418290854%"
+                }
+            },
+            "children": [],
+            "id": "c384dfaa-7af1-4e3d-965c-457e13c42101",
+            "thunkableVersion": 435,
+            "name": "Date_Input1"
+        }
+    ],
+    "id": "b15b1460-ad82-4e8a-a4d6-36d632dd160f",
+    "thunkableVersion": 435,
+    "name": "Rhode Island Hotels"
+}

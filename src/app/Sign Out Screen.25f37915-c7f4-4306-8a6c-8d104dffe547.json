@@ -26,12 +26,12 @@
             "alignItems": "center",
             "display": "flex",
             "borderRadius": 20,
-            "backgroundColor": "rgba(255, 255, 255, 1)"
+            "backgroundColor": "rgba(115, 126, 126, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(255, 255, 255, 1)",
+        "StatusBarColor": "rgba(0,0,0,0.53)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -40,56 +40,9 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(255, 255, 255, 1)"
+        "BackgroundColor": "rgba(115, 126, 126, 1)"
     },
     "children": [
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "Logo.png",
-                "resizeMode": "stretch",
-                "Height": 118,
-                "Width": 212,
-                "Visible": true,
-                "X": 80,
-                "Y": 0,
-                "RelativeX": 80,
-                "RelativeY": 0,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "37.69230769230769%",
-                    "top": "3.575135986853966%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "979c515c-9282-47a2-8e61-203690129a51",
-                "position": "absolute",
-                "edgeOffsets": 0
-            },
-            "children": [],
-            "id": "44da1b5c-e661-469b-9e86-2659f4d2cd29",
-            "thunkableVersion": 432,
-            "bindings": null,
-            "name": "Logo1"
-        },
         {
             "type": "Button",
             "translatedName": "Button",
@@ -97,12 +50,12 @@
                 "Text": "Reset Password",
                 "TextColor": "#FFFFFF",
                 "FontSize": 18,
-                "BackgroundColor": "rgba(22, 210, 241, 1)",
-                "Height": 78,
-                "Width": 190,
+                "BackgroundColor": "#2962FF",
+                "Height": 48,
+                "Width": 178,
                 "Visible": true,
                 "X": 83,
-                "Y": 337,
+                "Y": 234.375,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -133,10 +86,10 @@
                 "Raised": false,
                 "Disabled": false,
                 "position": "absolute",
-                "edgeOffsets": 337,
+                "edgeOffsets": 234.375,
                 "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
                 "RelativeX": 83,
-                "RelativeY": 337
+                "RelativeY": 234.375
             },
             "children": [],
             "id": "effe030a-9830-4c72-a439-bdd7fbe65dd1",
@@ -203,12 +156,12 @@
                 "Text": "Sign Out",
                 "TextColor": "#FFFFFF",
                 "FontSize": 18,
-                "BackgroundColor": "rgba(22, 210, 241, 1)",
-                "Height": 70,
-                "Width": 187,
+                "BackgroundColor": "#2962FF",
+                "Height": 56,
+                "Width": 176,
                 "Visible": true,
-                "X": 84,
-                "Y": 155,
+                "X": 83,
+                "Y": 154.375,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -239,10 +192,10 @@
                 "Raised": false,
                 "Disabled": false,
                 "position": "absolute",
-                "edgeOffsets": 155,
+                "edgeOffsets": 154.375,
                 "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
-                "RelativeX": 84,
-                "RelativeY": 155
+                "RelativeX": 83,
+                "RelativeY": 154.375
             },
             "children": [],
             "id": "3becd789-6966-4b99-95a3-ebab3f2a1718",
