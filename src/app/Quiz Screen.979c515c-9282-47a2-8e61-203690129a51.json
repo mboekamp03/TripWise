@@ -522,8 +522,8 @@
             "properties": {
                 "Value": false,
                 "Visible": true,
-                "Height": 24,
-                "Width": 24,
+                "Height": 26,
+                "Width": 26,
                 "RelativeX": 35,
                 "RelativeY": 1365,
                 "Color": "rgba(93, 122, 252, 100)",
@@ -904,8 +904,8 @@
             "properties": {
                 "Value": false,
                 "Visible": true,
-                "Height": 24,
-                "Width": 24,
+                "Height": 26,
+                "Width": 26,
                 "RelativeX": 37,
                 "RelativeY": 1030,
                 "Color": "rgba(93, 122, 252, 100)",
@@ -1636,8 +1636,8 @@
             "properties": {
                 "Value": false,
                 "Visible": true,
-                "Height": 28,
-                "Width": 28,
+                "Height": 30,
+                "Width": 30,
                 "RelativeX": 30,
                 "RelativeY": 819,
                 "Color": "rgba(93, 122, 252, 100)",
@@ -1667,8 +1667,8 @@
             "properties": {
                 "Value": false,
                 "Visible": true,
-                "Height": 30,
-                "Width": 30,
+                "Height": 32,
+                "Width": 32,
                 "RelativeX": 30,
                 "RelativeY": 778,
                 "Color": "rgba(93, 122, 252, 100)",
@@ -1782,7 +1782,7 @@
             "id": "afb40753-d8ed-4114-a47b-fd66fed391dc",
             "thunkableVersion": 426,
             "bindings": null,
-            "name": "Surfing Checkbox"
+            "name": "Sight Seeing Checkbox"
         },
         {
             "type": "Checkbox",
@@ -1813,7 +1813,7 @@
             "id": "93ff354c-cf38-49a2-a525-7a1543b5ba33",
             "thunkableVersion": 426,
             "bindings": null,
-            "name": "Sight Seeing Checkbox"
+            "name": "Surfing Checkbox"
         },
         {
             "type": "Label",
@@ -2101,7 +2101,7 @@
             "children": [],
             "id": "192073ed-a920-4062-9602-b3eb0faab2ab",
             "thunkableVersion": 426,
-            "name": "Checkbox Rural"
+            "name": "Checkbox Beach"
         },
         {
             "type": "Checkbox",
@@ -2110,8 +2110,8 @@
             "properties": {
                 "Value": false,
                 "Visible": true,
-                "Height": 24,
-                "Width": 24,
+                "Height": 28,
+                "Width": 28,
                 "RelativeX": 28,
                 "RelativeY": 524,
                 "Color": "rgba(93, 122, 252, 100)",
@@ -2132,7 +2132,7 @@
             "id": "27cc1c0e-6769-49de-b6f8-8fda1dbad288",
             "thunkableVersion": 426,
             "bindings": null,
-            "name": "Checkbox City"
+            "name": "Checkbox Rural"
         },
         {
             "type": "Checkbox",
@@ -2162,7 +2162,7 @@
             "children": [],
             "id": "da1375a7-2b0a-4fb2-9b8b-aa341caee9c3",
             "thunkableVersion": 426,
-            "name": "Checkbox Beach"
+            "name": "Checkbox City"
         },
         {
             "type": "Label",
@@ -2400,10 +2400,10 @@
                 "Height": 118,
                 "Width": 212,
                 "Visible": true,
-                "X": 0,
-                "Y": 70,
-                "RelativeX": 0,
-                "RelativeY": 70,
+                "X": 90,
+                "Y": 0,
+                "RelativeX": 90,
+                "RelativeY": 0,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -2429,7 +2429,7 @@
                 },
                 "ParentId": "979c515c-9282-47a2-8e61-203690129a51",
                 "position": "absolute",
-                "edgeOffsets": 70
+                "edgeOffsets": 0
             },
             "children": [],
             "id": "738ba94a-6436-4625-b2da-53245041fc86",
