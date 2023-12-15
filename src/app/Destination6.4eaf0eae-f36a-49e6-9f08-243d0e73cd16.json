@@ -329,10 +329,10 @@
                 "Height": 47,
                 "Width": 313,
                 "Visible": true,
-                "X": 30,
-                "Y": 8,
-                "RelativeX": 30,
-                "RelativeY": 8,
+                "X": 15,
+                "Y": 9,
+                "RelativeX": 15,
+                "RelativeY": 9,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -375,7 +375,7 @@
                 },
                 "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 8,
+                "edgeOffsets": 9,
                 "children": "Boston",
                 "Font": "Lato",
                 "TextAlign": "center"
