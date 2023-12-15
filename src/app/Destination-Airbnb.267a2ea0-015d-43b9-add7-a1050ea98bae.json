@@ -1,4 +1,5 @@
 {
+    "id": "267a2ea0-015d-43b9-add7-a1050ea98bae",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -29,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,7 +53,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(255, 255, 255, 1)"
     },
     "children": [
         {
@@ -59,7 +62,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -112,7 +115,7 @@
                 "ParentId": "c1264f35-677c-4191-8f95-ed9d9708bd57",
                 "position": "absolute",
                 "edgeOffsets": 77,
-                "children": "Label"
+                "children": ""
             },
             "children": [],
             "id": "cddb2476-cb0a-449e-8f38-106aa4c149fa",
@@ -124,18 +127,18 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Button",
+                "Text": "Back",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 49,
-                "Width": 311,
+                "BackgroundColor": "rgba(22, 210, 241, 1)",
+                "Height": 51,
+                "Width": 313,
                 "Visible": true,
-                "X": 32,
-                "Y": 10,
-                "RelativeX": 32,
-                "RelativeY": 10,
+                "X": 33,
+                "Y": 11,
+                "RelativeX": 33,
+                "RelativeY": 11,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -166,7 +169,7 @@
                 "Disabled": false,
                 "ParentId": "267a2ea0-015d-43b9-add7-a1050ea98bae",
                 "position": "absolute",
-                "edgeOffsets": 10
+                "edgeOffsets": 11
             },
             "children": [],
             "id": "213b2b97-7f63-4257-9744-abd4c67c597f",
@@ -174,7 +177,6 @@
             "name": "Airbnb Back"
         }
     ],
-    "id": "267a2ea0-015d-43b9-add7-a1050ea98bae",
     "thunkableVersion": 435,
     "name": "Destination-Airbnb"
 }

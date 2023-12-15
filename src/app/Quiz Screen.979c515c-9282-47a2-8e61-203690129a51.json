@@ -105,13 +105,13 @@
             "translatedName": "Date Input",
             "properties": {
                 "FormatStyle": "YYYY-MM-DD",
-                "Height": 35,
-                "Width": 122,
+                "Height": 37,
+                "Width": 124,
                 "Visible": true,
-                "X": 215,
-                "Y": 1323,
-                "RelativeX": 215,
-                "RelativeY": 1323,
+                "X": 216,
+                "Y": 1324,
+                "RelativeX": 216,
+                "RelativeY": 1324,
                 "ResizeMode": "STRETCH",
                 "FontSize": 16,
                 "Color": "rgba(0, 0, 0, 65)",
@@ -141,7 +141,7 @@
                 },
                 "ParentId": "979c515c-9282-47a2-8e61-203690129a51",
                 "position": "absolute",
-                "edgeOffsets": 1323
+                "edgeOffsets": 1324
             },
             "children": [],
             "id": "daec5ff0-3194-4ebd-9418-e57e930fd63c",
