@@ -1,4 +1,5 @@
 {
+    "id": "e21a1ba4-a8b7-46fc-a484-0def0d2b2f70",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -211,7 +212,6 @@
             "name": "Airbnb Button"
         }
     ],
-    "id": "e21a1ba4-a8b7-46fc-a484-0def0d2b2f70",
     "thunkableVersion": 435,
     "name": "API Selector"
 }
