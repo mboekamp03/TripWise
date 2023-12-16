@@ -1,4 +1,5 @@
 {
+    "id": "12c4d504-e08b-48ba-89cb-a06a44bc5619",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -522,7 +523,6 @@
             "name": "Logo2"
         }
     ],
-    "id": "12c4d504-e08b-48ba-89cb-a06a44bc5619",
     "thunkableVersion": 435,
     "name": "Destination List Dates"
 }
