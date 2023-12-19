@@ -57,6 +57,55 @@
     },
     "children": [
         {
+            "type": "Loading Icon",
+            "translatedName": "Loading Icon",
+            "reactType": "ActivityIndicator",
+            "properties": {
+                "animating": true,
+                "color": "rgba(22, 210, 241, 1)",
+                "size": 45,
+                "hidesWhenStopped": true,
+                "Height": 50,
+                "Width": 50,
+                "Visible": true,
+                "X": 163,
+                "Y": 307,
+                "RelativeX": 163,
+                "RelativeY": 307,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "37.2%",
+                    "top": "3.7481259370314843%",
+                    "display": "flex"
+                },
+                "ParentId": "3ae1304f-868b-43c4-b3a3-fc83a54deb74",
+                "position": "absolute",
+                "edgeOffsets": 307
+            },
+            "children": [],
+            "id": "1156cc91-609b-45f7-a1dc-2d886edb184c",
+            "thunkableVersion": 436,
+            "bindings": null,
+            "name": "Web API Loading Icon3"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",

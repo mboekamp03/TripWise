@@ -1,5 +1,4 @@
 {
-    "id": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -7,8 +6,10 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
         "Justification": "center",
         "Alignment": "center",
+        "Scrollable": true,
         "Visible": true,
         "style": {
             "marginTop": 0,
@@ -40,13 +41,20 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "Scrollable": true,
-        "BackgroundColor": "rgba(255, 255, 255, 1)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
@@ -61,10 +69,10 @@
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 30,
-                "Y": 576,
-                "RelativeX": 30,
-                "RelativeY": 576,
+                "X": 29,
+                "Y": 624,
+                "RelativeX": 29,
+                "RelativeY": 624,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -85,23 +93,23 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "12.4%",
-                    "top": "54.302850405851764%",
+                    "left": "43.46666666666667%",
+                    "top": "8.125938861623876%",
                     "display": "flex"
                 },
                 "FontBold": false,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "5c4b6a2f-e051-4456-a471-ed03b43505f4",
                 "position": "absolute",
-                "edgeOffsets": 576
+                "edgeOffsets": 624
             },
             "children": [],
-            "id": "0ef2bdb1-984b-4111-b5b2-96b3c284f479",
+            "id": "f55d8e39-24e2-41fe-a9a7-a2c8031a9c9a",
             "thunkableVersion": 436,
             "bindings": null,
-            "name": "Miami Flights"
+            "name": "Chicago Flights"
         },
         {
             "type": "Button",
@@ -115,10 +123,10 @@
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 29,
-                "Y": 514,
-                "RelativeX": 29,
-                "RelativeY": 514,
+                "X": 32,
+                "Y": 559,
+                "RelativeX": 32,
+                "RelativeY": 559,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -139,29 +147,29 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "12.4%",
-                    "top": "54.302850405851764%",
+                    "left": "43.46666666666667%",
+                    "top": "8.125938861623876%",
                     "display": "flex"
                 },
                 "FontBold": false,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "5c4b6a2f-e051-4456-a471-ed03b43505f4",
                 "position": "absolute",
-                "edgeOffsets": 514
+                "edgeOffsets": 559
             },
             "children": [],
-            "id": "2128d160-f663-4b9a-8fda-5190f78c9c5c",
+            "id": "18cef195-33a3-454c-a3ae-37cf0bf9d493",
             "thunkableVersion": 436,
             "bindings": null,
-            "name": "Miami Travel Plan"
+            "name": "Chicago Travel Plan"
         },
         {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "See Availble Lodging",
+                "Text": "See Available Lodging",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
@@ -170,9 +178,9 @@
                 "Width": 311,
                 "Visible": true,
                 "X": 30,
-                "Y": 456,
+                "Y": 501,
                 "RelativeX": 30,
-                "RelativeY": 456,
+                "RelativeY": 501,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -193,36 +201,36 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "12.4%",
-                    "top": "54.302850405851764%",
+                    "left": "43.46666666666667%",
+                    "top": "8.125938861623876%",
                     "display": "flex"
                 },
                 "FontBold": false,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "5c4b6a2f-e051-4456-a471-ed03b43505f4",
                 "position": "absolute",
-                "edgeOffsets": 456
+                "edgeOffsets": 501
             },
             "children": [],
-            "id": "bfe7fa81-a39b-446b-b451-c15d552dfd0f",
+            "id": "3253c3fc-8edb-40f1-8d91-ee4de00f4a7b",
             "thunkableVersion": 435,
-            "name": "Miami Lodging Button"
+            "name": "Chicago Lodging Button"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "miami img 3.jpg",
+                "Picture": "chicago img 2.jpg",
                 "resizeMode": "contain",
-                "Height": 134,
-                "Width": 172,
+                "Height": 119,
+                "Width": 178,
                 "Visible": true,
-                "X": 186,
-                "Y": 638,
-                "RelativeX": 186,
-                "RelativeY": 638,
+                "X": 179,
+                "Y": 736,
+                "RelativeX": 179,
+                "RelativeY": 736,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -242,65 +250,19 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "33.733333333333334%",
-                    "top": "76.73116566716642%",
+                    "left": "47.733333333333334%",
+                    "top": "10.824589536286544%",
                     "display": "flex"
                 },
                 "capInsets": {},
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "5c4b6a2f-e051-4456-a471-ed03b43505f4",
                 "position": "absolute",
-                "edgeOffsets": 638
+                "edgeOffsets": 736
             },
             "children": [],
-            "id": "0ae129b4-2fa7-4921-ace0-76ffc1fe4fdd",
-            "thunkableVersion": 432,
-            "name": "Miami Img 3"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "miami img 2.jpg",
-                "resizeMode": "contain",
-                "Height": 142,
-                "Width": 166,
-                "Visible": true,
-                "X": 13,
-                "Y": 638,
-                "RelativeX": 13,
-                "RelativeY": 638,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "36.666666666666664%",
-                    "top": "72.98303973013493%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
-                "position": "absolute",
-                "edgeOffsets": 638
-            },
-            "children": [],
-            "id": "be9f3f2b-d572-40f5-9b3d-45c594069481",
-            "thunkableVersion": 432,
-            "name": "Miami Img 2"
+            "id": "3a979fd9-2c71-4806-b88e-3799a50a6d73",
+            "thunkableVersion": 435,
+            "name": "Chicago Img 1"
         },
         {
             "type": "Button",
@@ -315,9 +277,9 @@
                 "Width": 312,
                 "Visible": true,
                 "X": 29,
-                "Y": 793,
+                "Y": 871,
                 "RelativeX": 29,
-                "RelativeY": 793,
+                "RelativeY": 871,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -348,31 +310,31 @@
                 "Disabled": false,
                 "ParentId": "12c4d504-e08b-48ba-89cb-a06a44bc5619",
                 "position": "absolute",
-                "edgeOffsets": 793
+                "edgeOffsets": 871
             },
             "children": [],
-            "id": "5b2b384f-4828-4845-b0e5-b27016091768",
+            "id": "e01f5eea-0195-49c1-9ff1-a3fe5f065481",
             "thunkableVersion": 436,
             "bindings": null,
-            "name": "Back7"
+            "name": "Back17"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Miami, situated on Florida's southeastern coast, is a bustling metropolis renowned for its sun-drenched beaches, a rich mosaic of diverse cultures shaping its vibrant streets, and a dynamic nightlife scene that pulses with an irresistible energy and excitement, making it a magnetic destination for visitors worldwide.",
+                "Text": "Chicago, a vibrant Midwest metropolis, boasts iconic architecture, a rich cultural scene, and a lively urban spirit. From the Lake Michigan skyline to its blues-infused neighborhoods, the city is a dynamic blend of history and modern energy. With renowned museums, a thriving music scene, and the famous Millennium Park, Chicago captures the essence of Midwestern warmth and cosmopolitan flair.",
                 "FontSize": 15,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 156,
-                "Width": 335,
+                "Height": 205,
+                "Width": 338,
                 "Visible": true,
-                "X": 20,
-                "Y": 296,
-                "RelativeX": 20,
-                "RelativeY": 296,
+                "X": 21,
+                "Y": 291,
+                "RelativeX": 21,
+                "RelativeY": 291,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -406,35 +368,81 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "37.2%",
-                    "top": "50.79413418290854%",
+                    "left": "14.8%",
+                    "top": "51.2743628185907%",
                     "lineHeight": 1,
                     "display": "flex"
                 },
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 296,
-                "children": "Miami, situated on Florida's southeastern coast, is a bustling metropolis renowned for its sun-drenched beaches, a rich mosaic of diverse cultures shaping its vibrant streets, and a dynamic nightlife scene that pulses with an irresistible energy and excitement, making it a magnetic destination for visitors worldwide.",
+                "edgeOffsets": 291,
+                "children": "Chicago, a vibrant Midwest metropolis, boasts iconic architecture, a rich cultural scene, and a lively urban spirit. From the Lake Michigan skyline to its blues-infused neighborhoods, the city is a dynamic blend of history and modern energy. With renowned museums, a thriving music scene, and the famous Millennium Park, Chicago captures the essence of Midwestern warmth and cosmopolitan flair.",
                 "Font": "Montserrat"
             },
             "children": [],
-            "id": "61c7b269-f675-41bc-866c-335bcd3db40c",
-            "thunkableVersion": 432,
-            "name": "Miami Description"
+            "id": "8dd4bcca-2782-4400-b1c3-b56476249954",
+            "thunkableVersion": 433,
+            "name": "Chicago Description"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "miami img 1.jpg",
+                "Picture": "chicago img 1.jpg",
                 "resizeMode": "contain",
-                "Height": 233,
-                "Width": 345,
+                "Height": 140,
+                "Width": 158,
                 "Visible": true,
-                "X": 13,
-                "Y": 66,
-                "RelativeX": 13,
-                "RelativeY": 66,
+                "X": 15,
+                "Y": 726,
+                "RelativeX": 15,
+                "RelativeY": 726,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "37.2%",
+                    "top": "54.72263868065967%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
+                "position": "absolute",
+                "edgeOffsets": 726
+            },
+            "children": [],
+            "id": "58e0c948-d6b3-4926-b34b-7d438b7668cb",
+            "thunkableVersion": 433,
+            "name": "Chicago Img 3"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "chicago img 3.jpg",
+                "resizeMode": "contain",
+                "Height": 221,
+                "Width": 342,
+                "Visible": true,
+                "X": 15,
+                "Y": 59,
+                "RelativeX": 15,
+                "RelativeY": 59,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -455,37 +463,37 @@
                     },
                     "position": "absolute",
                     "left": "11.866666666666667%",
-                    "top": "15.292353823088456%",
+                    "top": "12.293853073463268%",
                     "display": "flex"
                 },
                 "capInsets": {},
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 66
+                "edgeOffsets": 59
             },
             "children": [],
-            "id": "1997a1d3-f4cb-4b75-b16e-b82220b8a99f",
-            "thunkableVersion": 432,
-            "name": "Miami Img 1"
+            "id": "6dd315ed-fa7c-4347-9b3d-4ac69fa2d4e2",
+            "thunkableVersion": 433,
+            "name": "Chicago Img 2"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Miami",
+                "Text": "Chicago",
                 "FontSize": 40,
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "FontWeight": "bold",
                 "Height": 47,
-                "Width": 209,
+                "Width": 313,
                 "Visible": true,
-                "X": 84,
-                "Y": 12,
-                "RelativeX": 84,
-                "RelativeY": 12,
+                "X": 33,
+                "Y": 8,
+                "RelativeX": 33,
+                "RelativeY": 8,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -519,26 +527,28 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "31.6%",
-                    "top": "6.5967016491754125%",
+                    "left": "38.53333333333333%",
+                    "top": "3.4482758620689653%",
                     "lineHeight": 1,
                     "display": "flex",
                     "fontWeight": "bold",
                     "textAlign": "center"
                 },
-                "ParentId": "f80fffbd-8062-4496-8b9c-7a0b2acaf39d",
+                "ParentId": "d5082954-62be-49f0-b470-ad77c43e52e8",
                 "position": "absolute",
-                "edgeOffsets": 12,
-                "children": "Miami",
+                "edgeOffsets": 8,
+                "children": "Chicago",
                 "Font": "Lato",
                 "TextAlign": "center"
             },
             "children": [],
-            "id": "24ebdb99-bf4c-4ad1-89aa-622a14489546",
-            "thunkableVersion": 432,
-            "name": "Miami Title"
+            "id": "1d17bb95-5686-46c7-b285-98248fbec0bf",
+            "thunkableVersion": 433,
+            "name": "Chicago Title"
         }
     ],
-    "thunkableVersion": 426,
-    "name": "Destination4"
+    "id": "4db978f6-4d01-45b6-9d4c-f3cf2eebc0cc",
+    "thunkableVersion": 436,
+    "bindings": null,
+    "name": "Destination8"
 }

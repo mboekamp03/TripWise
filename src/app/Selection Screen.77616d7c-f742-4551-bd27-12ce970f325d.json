@@ -54,7 +54,8 @@
             "headerStyle": {}
         },
         "tabNavigationOptions": {},
-        "BackgroundColor": "rgba(255, 255, 255, 1)"
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
+        "Scrollable": true
     },
     "children": [
         {
@@ -295,7 +296,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Search",
+                "Text": "Sign Out",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
@@ -303,10 +304,10 @@
                 "Height": 63,
                 "Width": 259,
                 "Visible": true,
-                "X": 63,
-                "Y": 516,
-                "RelativeX": 63,
-                "RelativeY": 516,
+                "X": 60,
+                "Y": 616,
+                "RelativeX": 60,
+                "RelativeY": 616,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -337,7 +338,61 @@
                 "Disabled": false,
                 "ParentId": "77616d7c-f742-4551-bd27-12ce970f325d",
                 "position": "absolute",
-                "edgeOffsets": 516
+                "edgeOffsets": 616
+            },
+            "children": [],
+            "id": "44c1aa63-dab0-4fa3-bfd1-5e39bd8ed274",
+            "thunkableVersion": 436,
+            "bindings": null,
+            "name": "Sign Out1"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Search",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(22, 210, 241, 1)",
+                "Height": 63,
+                "Width": 259,
+                "Visible": true,
+                "X": 63,
+                "Y": 515,
+                "RelativeX": 63,
+                "RelativeY": 515,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "20.933333333333334%",
+                    "top": "42.57871064467766%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "77616d7c-f742-4551-bd27-12ce970f325d",
+                "position": "absolute",
+                "edgeOffsets": 515.9999999999999
             },
             "children": [],
             "id": "9ba549c0-230c-46c0-9e62-8b7487cad35d",
