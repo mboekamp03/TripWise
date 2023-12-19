@@ -54,9 +54,64 @@
             "headerStyle": {}
         },
         "tabNavigationOptions": {},
-        "BackgroundColor": "rgba(255, 255, 255, 1)"
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
+        "Scrollable": true
     },
     "children": [
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Back",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(22, 210, 241, 1)",
+                "Height": 57,
+                "Width": 312,
+                "Visible": true,
+                "X": 32,
+                "Y": 565,
+                "RelativeX": 32,
+                "RelativeY": 565,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "27.6%",
+                    "top": "56.52173913043478%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "12c4d504-e08b-48ba-89cb-a06a44bc5619",
+                "position": "absolute",
+                "edgeOffsets": 565
+            },
+            "children": [],
+            "id": "75afcfa2-07fe-4d13-a032-f7c436987445",
+            "thunkableVersion": 436,
+            "bindings": null,
+            "name": "Back14"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -170,10 +225,10 @@
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 32,
-                "Y": 165,
-                "RelativeX": 32,
-                "RelativeY": 165,
+                "X": 31,
+                "Y": 161,
+                "RelativeX": 31,
+                "RelativeY": 161,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -204,7 +259,7 @@
                 "Disabled": false,
                 "ParentId": "e21a1ba4-a8b7-46fc-a484-0def0d2b2f70",
                 "position": "absolute",
-                "edgeOffsets": 165
+                "edgeOffsets": 161
             },
             "children": [],
             "id": "10734087-95b5-4915-80d9-4d560992c3fe",
