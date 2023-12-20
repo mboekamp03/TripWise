@@ -1,4 +1,5 @@
 {
+    "id": "4db978f6-4d01-45b6-9d4c-f3cf2eebc0cc",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -547,7 +548,6 @@
             "name": "Chicago Title"
         }
     ],
-    "id": "4db978f6-4d01-45b6-9d4c-f3cf2eebc0cc",
     "thunkableVersion": 436,
     "bindings": null,
     "name": "Destination8"
