@@ -23,17 +23,17 @@ our small, pre-selected list.
 You can also skip the quiz and simply choose a destination from our destination list to explore. We currently have functionality
 to explore airbnbs in the area you want to travel to, and then to take you to the airbnb website to actually book your stay. 
 
-For more details on how to use Tripwise, click [this link] to navigate to our website. 
+For more details on how to use Tripwise, click [this link](https://mboekamp03.github.io/TripWise/) to navigate to our website. 
 
 ## How do I get it?
 
 Right now, our app is available for internal testing on the Google Play Store. If you have been selected to be an internal tester, 
 the directions are as follows:
-//TODO add links
-1. Use [this link] to navigate to the test.
+
+1. Use [this link](https://play.google.com/apps/internaltest/4700843707922635741) to navigate to the test.
 2. You will be brought to our invite screen for our internal test. From here, click on the blue ```Accept Invite``` button.
 3. After accepting the invite, click the link that says ```Download in the Google Play Store```. From there, you will be able to install TripWise.
-4. When you are done testing the app, please leave feedback on [this form]. We appreciate your input!
+4. When you are done testing the app, please leave feedback on [this form](https://docs.google.com/forms/d/1tLHWRq8IhGC_YIMz3eBdbLbB-66gMlLXO8Hnob8OJGQ/). We appreciate your input!
 
 ## Credits
 
