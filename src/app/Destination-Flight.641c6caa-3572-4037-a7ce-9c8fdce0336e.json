@@ -1,4 +1,5 @@
 {
+    "id": "641c6caa-3572-4037-a7ce-9c8fdce0336e",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -227,7 +228,6 @@
             "name": "Back16"
         }
     ],
-    "id": "641c6caa-3572-4037-a7ce-9c8fdce0336e",
     "thunkableVersion": 436,
     "name": "Destination-Flight"
 }
